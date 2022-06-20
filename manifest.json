@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "name":"Whats Link chat",
+    "author":"Don carderms",
+    "icons": { "16": "whatsapp.png",
+        "48": "whatsapp.png",
+       "128": "whatsapp.png" },
+    "browser_action": {
+        "default_title": "Don carderms",
+        "default_popup": "index.html"
+    },
+    "background": {
+    "service_worker": "js/index.js"
+  }
+
+}
